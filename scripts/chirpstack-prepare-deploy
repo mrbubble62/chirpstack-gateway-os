@@ -17,3 +17,4 @@ VERSION="3.3.0-test.3"
 
 do_deploy $VERSION "raspberrypi" "raspberrypi3"
 do_deploy $VERSION "raspberrypi" "raspberrypi"
+do_deploy $VERSION "raspberrypi" "raspberrypi0-wifi"

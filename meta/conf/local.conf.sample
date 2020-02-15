@@ -7,8 +7,9 @@ DISTRO = "chirpstack-gateway-os"
 #
 # Vendor: raspberrypi
 #         * raspberrypi
+#         * raspberrypi0-wifi
 #         * raspberrypi3
-MACHINE = "raspberrypi3"
+MACHINE = "raspberrypi0-wifi"
 
 # Parallel executed tasks
 BB_NUMBER_THREADS ?= "${@oe.utils.cpu_count()*2}"
